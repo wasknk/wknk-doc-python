@@ -1,11 +1,12 @@
-site_name: 个人学习笔记测试项目 # 网站名称
-site_author: Gemini AI User      # 作者名称
-repo_url: https://github.com/YourUsername/YourRepoName # 替换为您的 GitHub 地址
+site_name: was_scipts
+site_author: wasknk    
+repo_url: https://github.com/YourUsername/YourRepoName 
 
 theme:
-    name: readthedocs       # 使用 Read the Docs 的经典主题
-    highlightjs: true       # 启用代码高亮
+    name: readthedocs      
+    highlightjs: true       
 
 nav:
-    - 首页: 'index.md'      # 导航栏链接到 docs/index.md
-    - 脚本教程指南: 'guide.md' # 导航栏链接到 docs/guide.md
+    - 首页: 'index.md'      
+    - 脚本教程指南: 'guide.md' 
+    - Docker Usage: 'docker.md'
