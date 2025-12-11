@@ -1,8 +1,12 @@
-# Copier - Python template tools 
-A tool to make and apply a boilerplate in python
+# Copier: Python Project Template Utility 
 
-Caution: May do the bad thing when the template is malicioue. if you use template made by others , make sure it is  a trusted source .
+A powerful command-line tool for generating new Python projects from existing boilerplate templates.
 
+---
+
+### ⚠️ Security Warning ⚠️
+
+**Templates are executable code.** If you use a template from an untrusted or malicious source, it could potentially run arbitrary code on your machine during application. Always ensure your templates originate from a trusted source.
 
 ## basic usage 
 
