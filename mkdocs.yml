@@ -19,3 +19,4 @@ nav:
     - Pip: 'pip.md'
     - Uvicorn: 'uvicorn.md'
     - Copier: 'copier.md'
+    - Type-hints: 'type-hints.md'
