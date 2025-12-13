@@ -14,3 +14,24 @@ git add -A
 git commit --amend
 git push --with-limit-lease
 ```
+
+
+## A Fix for an Accidental Commit and Push to Main
+
+```
+# 0. Get the commit hash of the last commit 
+#    in main branch and copy the commit hash
+git log -1
+
+# 1. Go to the target branch and apply the commit
+git switch dev
+git cherry-pick <commit-hash>
+git push origin dev
+
+# 2. Correct the main branch history
+git switch main
+git reset --hard HEAD~1
+
+# 3. Overwrite the remote main branch (DANGEROUS STEP)
+git push --force-with-lease origin main
+```
