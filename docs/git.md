@@ -47,7 +47,15 @@ git push --force-with-lease origin main
 ## git fetch and set remote 
 ```
 git remote add upstream https://github.com/xxx/xxxxx.git
+git remote -v
 git fetch --all
+```
+
+## git change remote
+```
+git remote set-url origin https://github.com/xxx/xxxxx.git
+git remote set-url upstream https://github.com/xxx/xxxxx.git
+git remote -v
 ```
 
 ## git rebase
