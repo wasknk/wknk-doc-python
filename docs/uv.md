@@ -1,5 +1,22 @@
 # uv
 
+## if you start a brand-new project
+### add pyproject.toml file and .venv folder
+
+```
+uv init 
+```
+### add package 
+```
+uv add fastapi uvicorn pydantic-settings loguru
+```
+
+### add dev package
+```
+uv add --dev pytest
+```
+
+
 ## install 
 
 ```
