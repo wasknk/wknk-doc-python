@@ -28,5 +28,6 @@ nav:
     - pip-tools: 'pip-tools.md'
     - pyproject.toml: 'pyproject.toml.md'
     - docker-compose: 'docker-compose.md'
+    - asyncio: 'asyncio.md'
 
     #- Celery: 'celery.md'
