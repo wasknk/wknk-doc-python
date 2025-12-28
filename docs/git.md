@@ -73,3 +73,16 @@ git reset --mixed HEAD~1
 ```
 git-gui
 ```
+
+
+## git checkout another branch dir 
+
+```
+# first make sure it is clear 
+git branch 
+git status
+# than 
+git checkout feat/another-branch -- scripts/
+```
+
+note: be careful , cause it will Overwrite the local scripts/ dir and its files 
