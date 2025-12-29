@@ -29,5 +29,10 @@ nav:
     - pyproject.toml: 'pyproject.toml.md'
     - docker-compose: 'docker-compose.md'
     - asyncio: 'asyncio.md'
+    - redis: 'redis.md'
+    - aioredis: 'aioredis.md'
+    - pytest: 'pytest.md'
+    - pytest-cov: 'pytest-cov.md'
+    - pytest-xdist: 'pytest-xdist.md'
 
     #- Celery: 'celery.md'
