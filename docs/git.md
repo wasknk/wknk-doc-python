@@ -86,3 +86,18 @@ git checkout feat/another-branch -- scripts/
 ```
 
 note: be careful , cause it will Overwrite the local scripts/ dir and its files 
+
+
+## 
+
+```
+git stash	仅存储：已修改的旧文件 (Modified) 和已暂存的文件 (Staged)。	忽略：新创建的文件 (Untracked) 和 .gitignore 中的文件。
+git stash -u	全部存储：包含已修改的旧文件、已暂存的文件，以及新创建的文件 (Untracked)。	忽略：仅忽略 .gitignore 中的文件。
+git stash -a   全部存储，包括 .gitignore 中的要被忽略的文件
+
+git stash list	查看储物柜里所有存着的内容。
+git stash apply	应用改动，但不删除储物柜里的记录（比 pop 更安全）。
+git stash drop	手动删除储物柜里最近的一条记录。
+git stash clear	清空储物柜里的所有内容。
+git stash -u	注意！ 默认 stash 不包含新创建的文件（untracked），加 -u 才能存。
+```
