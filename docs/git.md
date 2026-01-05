@@ -107,13 +107,25 @@ It will make other branch to one stage to current branch
 so :
 1. switch to the branch you want to merge to 
 
-```
+```bash
 git checkout feat/factors_api
 git merge --squash feat/docker-test-env
 git commit -m "集成 docker-test-env 的所有功能"
 
 git merge --squash feat/quant-platform
 git commit -m "集成 quant-platform 的所有功能"
+
+## better delete the  feat/quant-platform after the quant
 ```
 
+## git rebase -i dev 
+
+```
+git checkout feat/factors_api
+git rebase -i main
+
+
+git checkout main
+git merge feat/factors_api
+```
 
